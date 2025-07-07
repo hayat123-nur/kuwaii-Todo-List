@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e89da4;
+  text-align: center;
+  height: auto;
+}
+
+button {
+  width: 75%;
+
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: #ffd4d4;
+  border: none;
+}
+section button {
+  border-radius: 53px;
+}
+button img {
+  width: 35px;
+}
+form {
+  background-image: linear-gradient(
+      rgba(255, 195, 206, 0.9),
+      rgba(255, 195, 206, 0.9)
+    ),
+    url(images/bg.jpg);
+  padding: 0 100px;
+  width: 80%;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 3vw 10vw;
+
+  max-height: 100vh;
+}
+p {
+  margin: auto;
+  margin-left: 10px;
+  opacity: 0.5;
+  padding: 10px 0;
+}
+section h5,
+h1 {
+  color: rgb(115, 0, 2);
+  padding-bottom: 10px;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Carter One";
+  font-weight: 400;
+  padding-top: 40px;
+}
+p,
+h5 {
+  font-family: "Reem kufi";
+}
+.footer {
+  padding: 0;
+  opacity: 0.5;
+}
+@media (max-width: 760px) {
+  form {
+    padding: 0px;
+    background-size: cover;
+    background-position: bottom right;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}
