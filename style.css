@@ -31,7 +31,7 @@ form {
       rgba(255, 195, 206, 0.9),
       rgba(255, 195, 206, 0.9)
     ),
-    url(images/bg.jpg);
+    url(assets/bg.jpg);
   padding: 0 100px;
   width: 80%;
   border-radius: 30px;
